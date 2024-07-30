@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { GifExpertApp } from "./GifExpertApp";
-import './GifExpertApp/styles.css'
+import { HooksApp } from "./HooksApp";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <GifExpertApp />
+    <HooksApp />
   </React.StrictMode>
 );
